@@ -58,6 +58,26 @@ p {
   background: #f7c08a;
 }
 
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #333;
+  color: #f7c08a;
+}
+
 /* Navbar */
 #navbar {
   background: #333;
@@ -95,6 +115,7 @@ p {
   color: #f7c08a;
 }
 
+/* showcase */
 #showcase {
   background: url(../img/showcase.jpg) no-repeat center center/cover;
   height: 600px;
@@ -114,4 +135,29 @@ p {
 #showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* home-info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
